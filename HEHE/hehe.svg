@@ -1,7 +1,7 @@
 <svg width="100%" height="100%" viewBox="0 0 100" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <filter id="blur">
-      <feGaussianBlur stdDeviation="50"/>
+      <feGaussianBlur stdDeviation="500"/>
     </filter>
   </defs>
 
@@ -41,7 +41,6 @@
     <use href="#g" filter="url(#blur)"/>
     <use href="#g" filter="url(#blur)"/>
   </g>
-<!-- 
   <g id="i">
     <use href="#h" filter="url(#blur)"/>
     <use href="#h" filter="url(#blur)"/>
@@ -58,6 +57,7 @@
     <use href="#k" filter="url(#blur)"/>
     <use href="#k" filter="url(#blur)"/>
   </g>
+<!-- 
   <g id="m">
     <use href="#l" filter="url(#blur)"/>
     <use href="#l" filter="url(#blur)"/>
@@ -103,4 +103,11 @@
     <use href="#v" filter="url(#blur)"/>
     <use href="#v" filter="url(#blur)"/>
   </g> -->
+  <text x="50" y="50" style="font-family:Verdana;font-size:32">Hello, World!
+    <animateMotion
+      path="M0,0 q60,100 100,0 q60,-20 100,0"
+      begin="0s"
+      dur="10s"
+      repeatCount="indefinite" />
+  </text>
 </svg>
