@@ -1,7 +1,7 @@
 <svg width="100%" height="100%" viewBox="0 0 100" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <filter id="blur">
-      <!-- <feGaussianBlur stdDeviation="500"/> -->
+      <feGaussianBlur stdDeviation="500"/>
     </filter>
   </defs>
 
@@ -52,6 +52,7 @@
     <use href="#h" filter="url(#blur)"/>
     <use href="#h" filter="url(#blur)"/>
   </g>
+<!-- 
   <g id="j">
     <use href="#i" filter="url(#blur)"/>
     <use href="#i" filter="url(#blur)"/>
@@ -76,7 +77,6 @@
     <use href="#n" filter="url(#blur)"/>
     <use href="#n" filter="url(#blur)"/>
   </g>
-<!-- 
   <g id="p">
     <use href="#o" filter="url(#blur)"/>
     <use href="#o" filter="url(#blur)"/>
