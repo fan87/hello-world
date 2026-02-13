@@ -41,7 +41,6 @@
     <use href="#g" filter="url(#blur)"/>
     <use href="#g" filter="url(#blur)"/>
   </g>
-<!-- 
   <g id="i">
     <use href="#h" filter="url(#blur)"/>
     <use href="#h" filter="url(#blur)"/>
@@ -98,6 +97,7 @@
     <use href="#u" filter="url(#blur)"/>
     <use href="#u" filter="url(#blur)"/>
   </g>
+<!-- 
   <g>
     <use href="#v" filter="url(#blur)"/>
     <use href="#v" filter="url(#blur)"/>
