@@ -1,0 +1,94 @@
+<svg width="100%" height="100%" viewBox="0 0 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="50"/>
+    </filter>
+  </defs>
+
+  <g id="bg">
+	<circle cx="250" cy="250" r="500" fill="#ff00ff" filter="url(#blur)"/>
+	<circle cx="250" cy="250" r="500" fill="#ff00ff" filter="url(#blur)"/>
+  </g>
+  <g id="a">
+    <use href="#bg" filter="url(#blur)"/>
+    <use href="#bg" filter="url(#blur)"/>
+  </g>
+  <g id="b">
+    <use href="#a" filter="url(#blur)"/>
+    <use href="#a" filter="url(#blur)"/>
+  </g>
+  <g id="c">
+    <use href="#b" filter="url(#blur)"/>
+    <use href="#b" filter="url(#blur)"/>
+  </g>
+  <g id="d">
+    <use href="#c" filter="url(#blur)"/>
+    <use href="#c" filter="url(#blur)"/>
+  </g>
+  <g id="e">
+    <use href="#d" filter="url(#blur)"/>
+    <use href="#d" filter="url(#blur)"/>
+  </g>
+  <g id="f">
+    <use href="#e" filter="url(#blur)"/>
+    <use href="#e" filter="url(#blur)"/>
+  </g>
+  <g id="g">
+    <use href="#f" filter="url(#blur)"/>
+    <use href="#f" filter="url(#blur)"/>
+  </g>
+  <g id="h">
+    <use href="#g" filter="url(#blur)"/>
+    <use href="#g" filter="url(#blur)"/>
+  </g>
+  <g id="i">
+    <use href="#h" filter="url(#blur)"/>
+    <use href="#h" filter="url(#blur)"/>
+  </g>
+  <g id="j">
+    <use href="#i" filter="url(#blur)"/>
+    <use href="#i" filter="url(#blur)"/>
+  </g>
+  <g id="k">
+    <use href="#j" filter="url(#blur)"/>
+    <use href="#j" filter="url(#blur)"/>
+  </g>
+  <g id="l">
+    <use href="#k" filter="url(#blur)"/>
+    <use href="#k" filter="url(#blur)"/>
+  </g>
+  <g id="m">
+    <use href="#l" filter="url(#blur)"/>
+    <use href="#l" filter="url(#blur)"/>
+  </g>
+<!-- 
+  <g id="n">
+    <use href="#m" filter="url(#blur)"/>
+    <use href="#m" filter="url(#blur)"/>
+  </g>
+  <g id="o">
+    <use href="#n" filter="url(#blur)"/>
+    <use href="#n" filter="url(#blur)"/>
+  </g>
+  <g id="p">
+    <use href="#o" filter="url(#blur)"/>
+    <use href="#o" filter="url(#blur)"/>
+  </g>
+  <g id="q">
+    <use href="#p" filter="url(#blur)"/>
+    <use href="#p" filter="url(#blur)"/>
+  </g>
+  <g id="r">
+    <use href="#q" filter="url(#blur)"/>
+    <use href="#q" filter="url(#blur)"/>
+  </g>
+  <g id="s">
+    <use href="#r" filter="url(#blur)"/>
+    <use href="#r" filter="url(#blur)"/>
+  </g>
+  <g>
+    <use href="#s" filter="url(#blur)"/>
+    <use href="#s" filter="url(#blur)"/>
+    <use href="#s" filter="url(#blur)"/>
+  </g> -->
+</svg>
